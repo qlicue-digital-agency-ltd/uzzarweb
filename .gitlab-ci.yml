@@ -18,6 +18,6 @@ deploy_production:
   script:
     - sshpass -V
     - export SSHPASS=$USER_PASS 
-    - sshpass -e cd qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar
-    - ls
+    - sshpass -e ssh qlicue@192.254.227.6
+    - pwd
     - exit
