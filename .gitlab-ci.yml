@@ -18,4 +18,4 @@ deploy_production:
   script:
     - sshpass -V
     - export SSHPASS=$USER_PASS 
-    - sshpass -e scp -o stricthostkeychecking=no -r . qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar
+    - sshpass -e scp -rf . qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar
