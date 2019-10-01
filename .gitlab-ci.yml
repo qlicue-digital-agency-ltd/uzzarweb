@@ -9,9 +9,8 @@ before_script:
 deploy_staging:
   type: deploy
   environment:
-    name: staging
-    url: example.com
+    name: production
   script:
-    - ssh root@example.com "/home2/qlicue/public_html/uzzar && git checkout master && git pull origin master && exit"
+    - ssh qlicue@192.254.227.6 "/home2/qlicue/public_html/uzzar && git checkout master && git pull origin master && exit"
   only:
     - master
