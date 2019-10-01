@@ -1,21 +1,17 @@
 before_script:
-
- - apt-get update -qq && apt-get install -y -qq sshpass
-
-stages:
-
-  - deploy
-
-deploy_production:
-
-  stage: deploy
-  
-  environment: Production
-  
+  # Setup SSH deploy keys
+  - 'which ssh-agent || ( apt-get install -qq openssh-client )'
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    
+deploy_staging:
+  type: deploy
+  environment:
+    name: staging
+    url: example.com
+  script:
+    - ssh root@example.com "/home2/qlicue/public_html/uzzar && git checkout master && git pull origin master && exit"
   only:
     - master
-    
-  script:
-    - sshpass -V
-    - export SSHPASS=$USER_PASS 
-    - sshpass -e qlicue@192.254.227.6 "pwd && exit"
