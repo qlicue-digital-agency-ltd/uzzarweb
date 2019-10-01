@@ -16,7 +16,8 @@ deploy_production:
     - master
     
   script:
-    - ping 192.254.227.6
     - sshpass -V
     - export SSHPASS=$USER_PASS 
-    - sshpass -e scp . qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar
+    - sshpass -e cd qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar
+    - ls
+    - exit
