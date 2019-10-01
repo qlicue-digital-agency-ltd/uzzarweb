@@ -18,6 +18,6 @@ deploy_production:
   script:
     - sshpass -V
     - export SSHPASS=$USER_PASS 
-    - sshpass -e ssh qlicue@192.254.227.6
+    - sshpass -e qlicue@192.254.227.6
     - pwd
     - exit
