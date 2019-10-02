@@ -6,7 +6,8 @@ before_script:
   - chmod 700 ~/.ssh/id_rsa
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/id_rsa
-  - ssh-keyscan -H 'qlicue.co.tz' >> ~/.ssh/known_hosts
+  - echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
+  - chmod 644 ~/.ssh/known_hosts
     
 deploy_staging:
   type: deploy
