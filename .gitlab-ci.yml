@@ -11,6 +11,7 @@ deploy_staging:
   environment:
     name: production
   script:
-    - ssh -p 2222 qlicue@192.254.227.6 "scp -o -r . qlicue@192.254.227.6:/home2/qlicue/public_html/uzzar"
+    - ssh -p 2222 qlicue@192.254.227.6 "cd /home2/qlicue/public_html/uzzar && git pull origin master && exit"
+
   only:
     - master
