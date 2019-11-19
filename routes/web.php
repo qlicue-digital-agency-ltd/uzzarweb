@@ -11,6 +11,7 @@
 |
 */
 
+// Main Page Routes
 Route::get('/', function () {
     return view('home');
 });
@@ -25,4 +26,29 @@ Route::get('/support', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+//Inner pages Routes
+Route::get('/features/accounting', function () {
+    return view('accounting');
+});
+
+Route::get('/features/engagment', function () {
+    return view('engagment');
+});
+
+Route::get('/features/integration', function () {
+    return view('integration');
+});
+
+Route::get('/features/inventory', function () {
+    return view('inventory');
+});
+
+Route::get('/features/point-of-sale', function () {
+    return view('point-of-sale');
+});
+
+Route::get('/features/reports', function () {
+    return view('reports');
 });

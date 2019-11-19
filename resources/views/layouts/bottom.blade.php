@@ -229,13 +229,13 @@
 
 
 	<!-- JS FILES // These should be loaded in every page -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/kl-plugins.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/kl-plugins.js"></script>
 
 	<!-- JS FILES // Loaded on this page -->
 	<!-- Required js scripts files for Revolution Slider element -->
-	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/jquery.themepunch.revolution.min.js">
+	<script type="text/javascript" src="/js/plugins/_sliders/revolution-slider/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="/js/plugins/_sliders/revolution-slider/jquery.themepunch.revolution.min.js">
 	</script>
 
 	<!-- Required js trigger for Revolution Slider element -->
@@ -376,16 +376,16 @@
 	</script>
 
 	<!-- Slick required js script for Recent Work Carousel & Partners Carousel & Screenshot-box elements -->
-	<script type="text/javascript" src="js/plugins/_sliders/slick/slick.js"></script>
+	<script type="text/javascript" src="/js/plugins/_sliders/slick/slick.js"></script>
 
 	<!-- Required js trigger for Recent Work Carousel & Partners Carousel & Screenshot-box elements -->
-	<script type="text/javascript" src="js/trigger/kl-slick-slider.js"></script>
+	<script type="text/javascript" src="/js/trigger/kl-slick-slider.js"></script>
 
 	<!-- Custom Kallyas JS codes -->
-	<script type="text/javascript" src="js/kl-scripts.js"></script>
+	<script type="text/javascript" src="/js/kl-scripts.js"></script>
 
 	<!-- Custom user JS codes -->
-	<script type="text/javascript" src="js/kl-custom.js"></script>
+	<script type="text/javascript" src="/js/kl-custom.js"></script>
 
 
 

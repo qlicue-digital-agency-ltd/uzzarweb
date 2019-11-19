@@ -44,12 +44,12 @@
                                         <ul class="inner">
                                             <li class="toplang-item active">
                                                 <a href="#">
-                                                    <img src="images/en.svg" alt="English" class="toplang-flag "> English
+                                                    <img src="/images/en.svg" alt="English" class="toplang-flag "> English
                                                 </a>
                                             </li>
                                             <li class="toplang-item">
                                                 <a href="#">
-                                                    <img src="images/fr.svg" alt="Francais" class="toplang-flag "> Swahili
+                                                    <img src="/images/fr.svg" alt="Francais" class="toplang-flag "> Swahili
                                                 </a>
                                             </li>
                                         </ul>
@@ -93,7 +93,7 @@
                                 <!-- Logo -->
                                 <h1 class="site-logo logo" id="logo">
                                     <a href="/" title="">
-                                        <img src="images/logos/uzzar-logo.svg" width="100" height="100"
+                                        <img src="/images/logos/uzzar-logo.svg" width="100" height="100"
                                              class="logo-img" alt="Uzzar Logo"
                                              title="Uzzar" />
                                     </a>

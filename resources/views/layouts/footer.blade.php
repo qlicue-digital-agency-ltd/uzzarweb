@@ -8,7 +8,7 @@
                         <div class="mb-30">
                             <!-- Logo -->
                             <a href="index.html">
-                                <img src="images/logos/uzzar-logo.svg" height="50%" width="50%"
+                                <img src="/images/logos/uzzar-logo.svg" height="50%" width="50%"
                                      alt="Uzzar Logo" class="mt-15 mb-20">
                             </a>
 
