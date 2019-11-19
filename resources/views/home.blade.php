@@ -865,7 +865,6 @@
         } else {
             revapi24 = tpj("#rev_slider_24_1").show().revolution({
                 sliderType: "standard",
-                // jsFileLocation: "//kallyas-template.net/visual_slider_builder/revslider/public/assets/js/",
                 sliderLayout: "fullscreen",
                 dottedOverlay: "none",
                 delay: 9000,
@@ -963,7 +962,7 @@
 <!-- Required js trigger for Recent Work Carousel & Partners Carousel & Screenshot-box elements -->
 <script type="text/javascript" src="js/trigger/kl-slick-slider.js"></script>
 
-<!-- Custom Kallyas JS codes -->
+<!-- Custom Uzzar JS codes -->
 <script type="text/javascript" src="js/kl-scripts.js"></script>
 
 <!-- Custom user JS codes -->

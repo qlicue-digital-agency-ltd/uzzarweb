@@ -9,7 +9,7 @@
                             <!-- Logo -->
                             <a href="index.html">
                                 <img src="images/logos/uzzar-logo.svg" height="50%" width="50%"
-                                     alt="Kallyas Template" class="mt-15 mb-20">
+                                     alt="Uzzar Logo" class="mt-15 mb-20">
                             </a>
 
                             <!-- Description -->

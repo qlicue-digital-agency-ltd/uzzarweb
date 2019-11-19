@@ -94,8 +94,8 @@
                                 <h1 class="site-logo logo" id="logo">
                                     <a href="index.html" title="">
                                         <img src="images/logos/uzzar-logo.svg" width="100" height="100"
-                                             class="logo-img" alt="Kallyas"
-                                             title="Kallyas Gigantic Premium Template" />
+                                             class="logo-img" alt="Uzzar Logo"
+                                             title="Uzzar" />
                                     </a>
                                 </h1>
                                 <!--/ Logo -->
