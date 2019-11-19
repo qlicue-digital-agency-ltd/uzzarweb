@@ -92,7 +92,7 @@
                             <div class="logo-container hasInfoCard logosize--yes">
                                 <!-- Logo -->
                                 <h1 class="site-logo logo" id="logo">
-                                    <a href="index.html" title="">
+                                    <a href="/" title="">
                                         <img src="images/logos/uzzar-logo.svg" width="100" height="100"
                                              class="logo-img" alt="Uzzar Logo"
                                              title="Uzzar" />
@@ -122,16 +122,16 @@
                                 <div id="main-menu" class="main-nav zn_mega_wrapper">
                                     <ul id="menu-main-menu" class="main-menu zn_mega_menu">
                                         <li class="menu-item-has-children menu-item-mega-parent"><a
-                                                    href="index.html">Home</a>
+                                                    href="/">Home</a>
                                         </li>
                                         <li class="menu-item-has-children menu-item-mega-parent"><a
-                                                    href="pricing.html">Pricing</a>
+                                                    href="/pricing">Pricing</a>
                                         </li>
                                         <li class="menu-item-has-children menu-item-mega-parent"><a
-                                                    href="support.html">Support</a>
+                                                    href="/support">Support</a>
                                         </li>
                                         <li class="menu-item-has-children menu-item-mega-parent"><a
-                                                    href="contact.html">Conatct Us</a>
+                                                    href="/contact">Conatct Us</a>
                                         </li>
                                     </ul>
                                 </div>

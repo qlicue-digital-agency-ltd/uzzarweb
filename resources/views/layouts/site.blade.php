@@ -14,4 +14,4 @@
 @include('layouts.bottom')
 
 <!-- Individual Pages Scripts Section -->
-@yield('scripts')
+<!-- @yield('scripts') -->
