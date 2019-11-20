@@ -7,7 +7,7 @@
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-30">
                         <div class="mb-30">
                             <!-- Logo -->
-                            <a href="index.html">
+                            <a href="/">
                                 <img src="/images/logos/uzzar-logo.svg" height="50%" width="50%"
                                      alt="Uzzar Logo" class="mt-15 mb-20">
                             </a>
@@ -35,10 +35,10 @@
                         <div class="mr-20">
                             <h4 data-role="title" class="simple-title">TOP FEATURES</h4>
                             <ul class="menu">
-                                <li><a href="#">Point of Sale</a></li>
-                                <li><a href="#">Data Analytics</a></li>
-                                <li><a href="#">Stock Inventory</a></li>
-                                <li><a href="#">Systems Integrations</a></li>
+                                <li><a href="/features/point-of-sale">Point of Sale</a></li>
+                                <li><a href="/features/accounting">Accounting</a></li>
+                                <li><a href="/features/inventory">Stock Inventory</a></li>
+                                <li><a href="/features/integration">Systems Integrations</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,10 +48,10 @@
                         <div class="">
                             <h4 data-role="title" class="simple-title">OUR PLANS</h4>
                             <ul class="menu">
-                                <li><a href="pricing.html#pricing">Uzzar Essential</a></li>
-                                <li><a href="pricing.html#pricing">Uzzar Allied</a></li>
-                                <li><a href="pricing.html#pricing">Uzzar Handler</a></li>
-                                <li><a href="pricing.html#pricing">Uzzar Paramount</a></li>
+                                <li><a href="/pricing#pricing">Uzzar Essential</a></li>
+                                <li><a href="/pricing#pricing">Uzzar Allied</a></li>
+                                <li><a href="/pricing#pricing">Uzzar Handler</a></li>
+                                <li><a href="/pricing#pricing">Uzzar Paramount</a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,8 +109,8 @@
                     </div>
                     <div class="col-sm-6">
                         <ul class="menu fs-xsmall text-right mb-xs-20 text-center-xs">
-                            <li><a href="index.html">Privacy Policy</a></li>
-                            <li><a href="blog.html">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
                         </ul>
                     </div>
                 </div>

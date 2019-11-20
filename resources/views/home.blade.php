@@ -30,25 +30,27 @@
                         data-bgparallax="off" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
-                    <div class="tp-caption rev-btn tp-resizeme" id="slide-69-layer-4"
-                        data-x="['left','left','left','left']" data-hoffset="['170','120','70','40']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['150','150','150','110']"
-                        data-width="none" data-height="none" data-whitespace="normal" data-type="button"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":500,"speed":1000,"sfxcolor":"#ffff58","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
-                        data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[30,30,30,30]"
-                        style="z-index: 5; white-space: normal; font-size: 15px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(255,255,255);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Features
-                    </div>
+                    <a href="/#uzzar-features">
+                        <div class="tp-caption rev-btn tp-resizeme" id="slide-69-layer-4"
+                            data-x="['left','left','left','left']" data-hoffset="['170','120','70','40']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['150','150','150','110']"
+                            data-width="none" data-height="none" data-whitespace="normal" data-type="button"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":500,"speed":1000,"sfxcolor":"#ff0000","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(164,26,27);"}]'
+                            data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[30,30,30,30]"
+                            style="z-index: 5; white-space: normal; font-size: 15px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(164,26,27);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            Features
+                        </div>
+                    </a>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption tp-resizeme rs-parallaxlevel-2" id="slide-69-layer-1"
                         data-x="['center','center','center','center']" data-hoffset="['500','500','390','220']"
                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                         data-responsive_offset="on"
-                        data-frames='[{"delay":400,"speed":750,"sfxcolor":"#2f3b4a","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":400,"speed":750,"sfxcolor":"#bbb4b4","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                         style="z-index: 6;">
@@ -61,7 +63,7 @@
                         data-hoffset="['150','100','50','20']" data-y="['middle','middle','middle','middle']"
                         data-voffset="['-177','-177','-177','-157']" data-width="none" data-height="none"
                         data-whitespace="normal" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":300,"speed":750,"sfxcolor":"#ffff58","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":300,"speed":750,"sfxcolor":"#ff0000","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
                         data-paddingright="[20,20,20,20]" data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[20,20,20,20]"
@@ -74,7 +76,7 @@
                         data-voffset="['-30','-30','-30','-30']" data-fontsize="['70','70','70','50']"
                         data-lineheight="['70','70','70','50']" data-width="['650','650','620','380']"
                         data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":200,"speed":750,"sfxcolor":"#ffff58","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":200,"speed":750,"sfxcolor":"#008080","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoleft","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['left','left','left','left']" data-paddingtop="[20,20,20,20]"
                         data-paddingright="[20,20,20,20]" data-paddingbottom="[30,30,30,30]"
                         data-paddingleft="[20,20,20,20]"
@@ -101,7 +103,7 @@
                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                         data-responsive_offset="on"
-                        data-frames='[{"delay":200,"speed":750,"sfxcolor":"#243949","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":200,"speed":750,"sfxcolor":"#bbb4b4","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                         style="z-index: 5;">
@@ -110,24 +112,26 @@
                             data-no-retina>
                     </div>
                     <!-- LAYER NR. 6 -->
-                    <div class="tp-caption rev-btn tp-resizeme" id="slide-70-layer-4"
-                        data-x="['left','left','left','left']" data-hoffset="['880','760','600','330']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['150','150','150','110']"
-                        data-width="none" data-height="none" data-whitespace="normal" data-type="button"
-                        data-responsive_offset="on"
-                        data-frames='[{"delay":500,"speed":750,"sfxcolor":"#cbbacc","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
-                        data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[30,30,30,30]"
-                        style="z-index: 6; white-space: normal; font-size: 15px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(255,255,255);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                        Learn
-                    </div>
+                    <a href="/pricing">
+                        <div class="tp-caption rev-btn tp-resizeme" id="slide-70-layer-4"
+                            data-x="['left','left','left','left']" data-hoffset="['880','760','600','330']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['150','150','150','110']"
+                            data-width="none" data-height="none" data-whitespace="normal" data-type="button"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":500,"speed":750,"sfxcolor":"#ff0000","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(164,26,27);"}]'
+                            data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[30,30,30,30]"
+                            style="z-index: 6; white-space: normal; font-size: 15px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(164,26,27);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                            Learn
+                        </div>
+                    </a>
                     <!-- LAYER NR. 7 -->
                     <div class="tp-caption tp-resizeme" id="slide-70-layer-3" data-x="['left','left','left','left']"
                         data-hoffset="['820','700','540','270']" data-y="['middle','middle','middle','middle']"
                         data-voffset="['-177','-177','-177','-157']" data-width="none" data-height="none"
                         data-whitespace="normal" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":400,"speed":750,"sfxcolor":"#cbbacc","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":400,"speed":750,"sfxcolor":"#ff0000","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
                         data-paddingright="[20,20,20,20]" data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[20,20,20,20]"
@@ -140,7 +144,7 @@
                         data-voffset="['-30','-30','-30','-30']" data-fontsize="['70','70','70','50']"
                         data-lineheight="['70','70','70','50']" data-width="['650','650','620','380']"
                         data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on"
-                        data-frames='[{"delay":300,"speed":750,"sfxcolor":"#cbbacc","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
+                        data-frames='[{"delay":300,"speed":750,"sfxcolor":"#008080","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktoright","frame":"999","to":"z:0;","ease":"Power4.easeOut"}]'
                         data-textalign="['right','right','right','right']" data-paddingtop="[20,20,20,20]"
                         data-paddingright="[20,20,20,20]" data-paddingbottom="[30,30,30,30]"
                         data-paddingleft="[20,20,20,20]"
@@ -346,7 +350,7 @@
                             <!-- Item - height 260px -->
                             <div class="grid-ibx__item h-260">
                                 <!-- icon box helper -->
-                                <a href="/point-of-sale.html">
+                                <a href="/features/point-of-sale">
                                     <i class="grid-ibx__ghelper"></i>
                                     <!--/ icon box helper -->
 
@@ -383,7 +387,7 @@
                             <!--/ Item - height 260px - .grid-ibx__item -->
 
                             <!-- Item - height 260px -->
-                            <a href="/accounting.html">
+                            <a href="/features/accounting">
                                 <div class="grid-ibx__item h-260">
                                     <!-- icon box helper -->
                                     <i class="grid-ibx__ghelper"></i>
@@ -421,7 +425,7 @@
                             <!--/ Item - height 260px - .grid-ibx__item -->
 
                             <!-- Item - height 260px -->
-                            <a href="engagment.html">
+                            <a href="/features/engagment">
                                 <div class="grid-ibx__item h-260">
                                     <!-- icon box helper -->
                                     <i class="grid-ibx__ghelper"></i>
@@ -470,7 +474,7 @@
                 <div class="grid-ibx grid-ibx--cols-3 grid-ibx--style-lined-gradient grid-ibx--hover-shadow">
                     <div class="grid-ibx__inner">
                         <div class="grid-ibx__row clearfix">
-                            <a href="inventory.html">
+                            <a href="/features/inventory">
                                 <!-- Item - height 260px -->
                                 <div class="grid-ibx__item h-260">
                                     <!-- icon box helper -->
@@ -508,7 +512,7 @@
                             <!--/ Item - height 260px - .grid-ibx__item -->
 
                             <!-- Item - height 260px -->
-                            <a href="integration.html">
+                            <a href="/features/integration">
                                 <div class="grid-ibx__item h-260">
                                     <!-- icon box helper -->
                                     <i class="grid-ibx__ghelper"></i>
@@ -547,7 +551,7 @@
                             <!--/ Item - height 260px - .grid-ibx__item -->
 
                             <!-- Item - height 260px -->
-                            <a href="reports.html">
+                            <a href="/features/reports">
                                 <div class="grid-ibx__item h-260">
                                     <!-- icon box helper -->
                                     <i class="grid-ibx__ghelper"></i>
@@ -611,8 +615,8 @@
 
                         <div class="col-sm-2">
                             <!-- Rectangle hover link -->
-                            <a href="#" class="circlehover with-symbol style2" data-size="" data-position="top-left"
-                                data-align="right" target="_blank">
+                            <a href="#contact_panel" id="ctabutton" class=" ctabutton kl-cta-ribbon circlehover with-symbol style2" data-size="" data-position="top-left"
+                                data-align="right" target="_self">
                                 <!-- Text -->
                                 <span class="text">Request a
                                     <span class="fw-normal">QUOTE</span>
@@ -731,8 +735,7 @@
                                 <!--/ Features list -->
 
                                 <!-- Button -->
-                                <a href="#" target="_blank" class="btn btn-fullcolor btn-third">Request a
-                                    Quote</a>
+                                <a href="/support" class="btn btn-fullcolor btn-third">See Our FAQ</a>
                                 <!--/ Button -->
                             </div>
                             <!--/ Left side -->

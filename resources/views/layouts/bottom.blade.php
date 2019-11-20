@@ -197,7 +197,7 @@
                             </div>
 
                             <!-- Google recaptcha required site-key (change with yours => https://www.google.com/recaptcha/admin#list) -->
-                            <div class="g-recaptcha" data-sitekey="SITE-KEY"></div>
+                            <!-- <div class="g-recaptcha" data-sitekey="SITE-KEY"></div> -->
                             <!--/ Google recaptcha required site-key -->
 
                             <div class="col-sm-12">
