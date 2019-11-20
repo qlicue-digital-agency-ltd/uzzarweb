@@ -70,51 +70,54 @@
 </div>
 <!--/ Knowledge base sub-header + Bottom mask style 2 -->
 
-<section class="container px-0 bg-white">
-    <div class="row align-items-center contents mt-25">
-        <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6  order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Informative dashboard</h2>
-                    <p>Get an all in one dashboard that will enable you to take control of your business with
-                        easy. The dashboard contains the information of your ongoing business and every activity
-                        that is being done in real time, then summarizes it for you in a way you can understand
-                        and make sensible decisions for the growth of your business.</p>
+<section class="px-0 bg-white">
+    <div class="container">
+        <div class="row align-items-center contents mt-25">
+            <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Informative dashboard</h2>
+                        <p>Get an all in one dashboard that will enable you to take control of your business with
+                            easy. The dashboard contains the information of your ongoing business and every activity
+                            that is being done in real time, then summarizes it for you in a way you can understand
+                            and make sensible decisions for the growth of your business.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row align-items-center contents mt-50">
-        <div class="col-md-6">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>A user friendly transaction panel</h2>
-                    <p>This being a business as usually activity, Uzzar has it that you will only need to focus
-                        on your business. The selling panel makes it a breeze for you to take orders, create pay
-                        list and checkout transactions. Activities form this panel will be reflected in your
-                        stock, sales, income etc. you just work and everything else is handled.</p>
+
+        <div class="row align-items-center contents mt-50">
+            <div class="col-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>A user friendly transaction panel</h2>
+                        <p>This being a business as usually activity, Uzzar has it that you will only need to focus
+                            on your business. The selling panel makes it a breeze for you to take orders, create pay
+                            list and checkout transactions. Activities form this panel will be reflected in your
+                            stock, sales, income etc. you just work and everything else is handled.</p>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
         </div>
-        <div class="col-md-6">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-    </div>
-    <div class="row align-items-center contents mt-50">
-        <div class="col-md-6 order-2 order-md-1 text-center">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Automatic invoicing</h2>
-                    <p>For all the transaction made through the application, invoices will be provided that will
-                        reflect the debts, and credits according to the statuses. These invoices are well
-                        detailed with every piece of information according to the configurations done and they
-                        are automatically generated for each transaction that is made.</p>
+        <div class="row align-items-center contents mt-50">
+            <div class="col-md-6 order-2 order-md-1 text-center">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Automatic invoicing</h2>
+                        <p>For all the transaction made through the application, invoices will be provided that will
+                            reflect the debts, and credits according to the statuses. These invoices are well
+                            detailed with every piece of information according to the configurations done and they
+                            are automatically generated for each transaction that is made.</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -70,34 +70,38 @@
 </div>
 <!--/ Knowledge base sub-header + Bottom mask style 2 -->
 
-<section class="container px-0 bg-white">
-    <div class="row align-items-center contents mt-25">
-        <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6  order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Stock</h2>
-                    <p>Control your business stocks with your application. Register your incoming stock
-                        accordingly and let the application do the rest like stock declining alert, expiration
-                        date alert and many more</p>
+<section class="px-0 bg-white">
+    <div class="container">
+        <div class="row align-items-center contents mt-25">
+            <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Stock</h2>
+                        <p>Control your business stocks with your application. Register your incoming stock
+                            accordingly and let the application do the rest like stock declining alert, expiration
+                            date alert and many more</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row align-items-center contents mt-50">
-        <div class="col-md-6">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Suppliers</h2>
-                    <p>Uzzar helps you track your business supplies records so as you can manage your purchases to run
-                        your business.</p>
+
+        <div class="row align-items-center contents mt-50">
+            <div class="col-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Suppliers</h2>
+                        <p>Uzzar helps you track your business supplies records so as you can manage your purchases to
+                            run
+                            your business.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            <div class="col-md-6">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
         </div>
     </div>
 </section>

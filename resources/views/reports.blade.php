@@ -70,18 +70,20 @@
 </div>
 <!--/ Knowledge base sub-header + Bottom mask style 2 -->
 
-<section class="container px-0 bg-white">
-    <div class="row align-items-center contents mt-25">
-        <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6  order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Operational Reports</h2>
-                    <p>Get real time reports on the operations that are recoreded for your business. These
-                        reports include all the non transaction activites that are done. These include things
-                        like inventory reports etc.</p>
+<section class=" px-0 bg-white">
+    <div class="container">
+        <div class="row align-items-center contents mt-25">
+            <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Operational Reports</h2>
+                        <p>Get real time reports on the operations that are recoreded for your business. These
+                            reports include all the non transaction activites that are done. These include things
+                            like inventory reports etc.</p>
+                    </div>
                 </div>
             </div>
         </div>

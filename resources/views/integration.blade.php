@@ -70,19 +70,21 @@
 </div>
 <!--/ Knowledge base sub-header + Bottom mask style 2 -->
 
-<section class="container px-0 bg-white">
-    <div class="row align-items-center contents mt-25">
-        <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6  order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Paymnet Gateway</h2>
-                    <p>To facilitate easy transaction experience, Uzzar provides system integration with other
-                        payment gateway such as bank, MNO's. This will help your bussines to handle transaction
-                        in a more sofsticated way and well secured. With features such as pushh USSD, the
-                        integration is made just to improve your business transactions.</p>
+<section class="px-0 bg-white">
+    <div class="container">
+        <div class="row align-items-center contents mt-25">
+            <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Paymnet Gateway</h2>
+                        <p>To facilitate easy transaction experience, Uzzar provides system integration with other
+                            payment gateway such as bank, MNO's. This will help your bussines to handle transaction
+                            in a more sofsticated way and well secured. With features such as pushh USSD, the
+                            integration is made just to improve your business transactions.</p>
+                    </div>
                 </div>
             </div>
         </div>

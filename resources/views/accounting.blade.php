@@ -70,48 +70,51 @@
 </div>
 <!--/ Knowledge base sub-header + Bottom mask style 2 -->
 
-<section class="container px-0 bg-white">
-    <div class="row align-items-center contents mt-25">
-        <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6  order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Collections</h2>
-                    <p>Uzzar automates a whole range of repetitive tasks. So you have more time to focus on
-                        your business safe in the knowledge that the important collections stuff is being taken
-                        care of.</p>
+<section class="px-0 bg-white">
+    <div class="container">
+        <div class="row align-items-center contents mt-25">
+            <div class="col-md-6 text-center order-2 order-md-1" style="background-image: url();">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Collections</h2>
+                        <p>Uzzar automates a whole range of repetitive tasks. So you have more time to focus on
+                            your business safe in the knowledge that the important collections stuff is being taken
+                            care of.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row align-items-center contents mt-50">
-        <div class="col-md-6">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Expenditures</h2>
-                    <p>Worryless about how to track your expenditures because Uzzar has that taken care. Our
-                        expenditure module is rich with elements to help you operate within your budget limits
-                        and hence makes sure your business is always on the safe side.</p>
+
+        <div class="row align-items-center contents mt-50">
+            <div class="col-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Expenditures</h2>
+                        <p>Worryless about how to track your expenditures because Uzzar has that taken care. Our
+                            expenditure module is rich with elements to help you operate within your budget limits
+                            and hence makes sure your business is always on the safe side.</p>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
         </div>
-        <div class="col-md-6">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-    </div>
-    <div class="row align-items-center contents mt-50">
-        <div class="col-md-6 order-2 order-md-1 text-center">
-            <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6 order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
-                    <h2>Managing Loans</h2>
-                    <p>Are you one of those who keep loan records for your customers in that old aged book? We
-                        understand its hard to keep up. With features like due date reminders Uzzar digitizes
-                        the experience to a whole new level that is way less stressful.</p>
+        <div class="row align-items-center contents mt-50">
+            <div class="col-md-6 order-2 order-md-1 text-center">
+                <img src="/images/features/pos/charts.png" height="500" width="500" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 blurb mb-5 mb-md-0">
+                        <h2>Managing Loans</h2>
+                        <p>Are you one of those who keep loan records for your customers in that old aged book? We
+                            understand its hard to keep up. With features like due date reminders Uzzar digitizes
+                            the experience to a whole new level that is way less stressful.</p>
+                    </div>
                 </div>
             </div>
         </div>
