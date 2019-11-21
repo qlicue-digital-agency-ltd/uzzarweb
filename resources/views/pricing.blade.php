@@ -743,7 +743,7 @@
 
                         <div class="col-sm-2">
                             <!-- Rectangle hover link -->
-                            <a href="index.html#uzzar-features" class="circlehover with-symbol style2" data-size=""
+                            <a href="/#uzzar-features" class="circlehover with-symbol style2" data-size=""
                                 data-position="top-left" data-align="right">
                                 <!-- Text -->
                                 <span class="text">LEARN

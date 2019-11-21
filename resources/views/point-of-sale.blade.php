@@ -138,7 +138,7 @@
                     <!--/ Title -->
 
                     <!-- View all posts button -->
-                    <a href="index.html#uzzar-features" class="latest_posts-acc-viewall">
+                    <a href="/#uzzar-features" class="latest_posts-acc-viewall">
                         VIEW ALL -
                     </a>
                     <!--/ View all posts button -->
@@ -151,7 +151,7 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px;">
                                     <!-- Post link wrapper -->
-                                    <a href="accounting.html" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/accounting" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -172,7 +172,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="accounting.html">
+                                            <a href="/features/accounting">
                                                 ACCOUNTING
                                             </a>
                                         </h5>
@@ -187,7 +187,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="accounting.html" class="latest_posts-acc-more">
+                                        <a href="/features/accounting" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
@@ -203,7 +203,7 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
                                     <!-- Post link wrapper -->
-                                    <a href="engagment.html" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/engagment" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -224,7 +224,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="engagment.html">
+                                            <a href="/features/engagment">
                                                 ENGAGMENT
                                             </a>
                                         </h5>
@@ -239,7 +239,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="engagment.html" class="latest_posts-acc-more" title="">
+                                        <a href="/features/engagment" class="latest_posts-acc-more" title="">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
@@ -255,7 +255,7 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
                                     <!-- Post link wrapper -->
-                                    <a href="inventory.html" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/inventory" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -276,7 +276,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="inventory.html">
+                                            <a href="/features/inventory">
                                                 INVENTORY
                                             </a>
                                         </h5>
@@ -291,7 +291,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="inventory.html" class="latest_posts-acc-more">
+                                        <a href="/features/inventory" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->

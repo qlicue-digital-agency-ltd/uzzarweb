@@ -3801,7 +3801,7 @@ padding: 0; font-size: 20px;}
 .newsletter-signup input[type=text] {color:#4d4d4d; background: #EFEFEF; border: 1px solid #a3a3a3; box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1) inset; 
 	width: 190px; display: inline-block; height: 40px; width: calc(90% - 130px);}
 .newsletter-signup input[type=submit] {color:#fff; background:#008080; border:0; font-weight:700; font-size:13px; height:40px; padding:0 15px; margin-left:10px; border-radius:3px; width: 100px; cursor: pointer; border: none !important;}
-.newsletter-signup input[type=submit]:hover {background:#000;}
+.newsletter-signup input[type=submit]:hover {background:rgb(164, 26, 27);}
 .newsletter-signup #result {display:inline-block; margin-bottom:10px;}
 .newsletter-signup #result:empty {display:inline;}
 

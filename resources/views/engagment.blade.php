@@ -132,7 +132,7 @@
                     <!--/ Title -->
 
                     <!-- View all posts button -->
-                    <a href="index.html#uzzar-features" class="latest_posts-acc-viewall">
+                    <a href="/#uzzar-features" class="latest_posts-acc-viewall">
                         VIEW ALL -
                     </a>
                     <!--/ View all posts button -->
@@ -145,7 +145,8 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px;">
                                     <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/point-of-sale"
+                                        class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -166,7 +167,58 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="#">
+                                            <a href="/features/point-of-sale">
+                                                POINT OF SALE
+                                            </a>
+                                        </h5>
+                                        <!--/ Title with link -->
+
+                                        <!-- Content text -->
+                                        <div class="text latest_posts-acc-text">
+                                            An interactive point of sale to enable you perform your sales fast,
+                                            effeciently and on the go....
+                                        </div>
+                                        <!--/ Content text -->
+
+                                        <!-- Read more button -->
+                                        <a href="/features/point-of-sale" class="latest_posts-acc-more">
+                                            READ MORE +
+                                        </a>
+                                        <!--/ Read more button -->
+                                    </div>
+                                    <!--/ Post content -->
+                                </div>
+                                <!--/ Post wrapper -->
+                            </li>
+                            <!--/ Post -->
+
+                            <!-- Post -->
+                            <li class="latest_posts-acc-item">
+                                <!-- Post wrapper -->
+                                <div class="inner-acc latest_posts-acc-inner" style="width: 555px;">
+                                    <!-- Post link wrapper -->
+                                    <a href="/features/accounting" class="thumb hoverBorder plus latest_posts-acc-link">
+                                        <!-- Border wrapper -->
+                                        <span class="hoverBorderWrapper">
+                                            <!-- Image -->
+                                            <img src="/images/features/other-features/features.jpg"
+                                                class="latest_posts-acc-img" alt="" title="" />
+                                            <!--/ Image -->
+
+                                            <!-- Hover border/shadow -->
+                                            <span class="theHoverBorder"></span>
+                                            <!--/ Hover border/shadow -->
+                                        </span>
+                                        <!--/ Border wrapper -->
+                                    </a>
+                                    <!-- Post link wrapper -->
+
+                                    <!-- Post content -->
+                                    <div class="content latest_posts-acc-content">
+
+                                        <!-- Title with link -->
+                                        <h5 class="m_title latest_posts-acc-title">
+                                            <a href="/features/accounting">
                                                 ACCOUNTING
                                             </a>
                                         </h5>
@@ -181,7 +233,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="#" class="latest_posts-acc-more">
+                                        <a href="/features/accounting" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
@@ -191,65 +243,13 @@
                                 <!--/ Post wrapper -->
                             </li>
                             <!--/ Post -->
-
-                            <!-- Post -->
-                            <li class="latest_posts-acc-item">
-                                <!-- Post wrapper -->
-                                <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
-                                    <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
-                                        <!-- Border wrapper -->
-                                        <span class="hoverBorderWrapper">
-                                            <!-- Image -->
-                                            <img src="/images/features/other-features/features.jpg"
-                                                class="latest_posts-acc-img" alt="" title="" />
-                                            <!--/ Image -->
-
-                                            <!-- Hover border/shadow -->
-                                            <span class="theHoverBorder"></span>
-                                            <!--/ Hover border/shadow -->
-                                        </span>
-                                        <!--/ Border wrapper -->
-                                    </a>
-                                    <!-- Post link wrapper -->
-
-                                    <!-- Post content -->
-                                    <div class="content latest_posts-acc-content">
-
-                                        <!-- Title with link -->
-                                        <h5 class="m_title latest_posts-acc-title">
-                                            <a href="#">
-                                                ENGAGMENT
-                                            </a>
-                                        </h5>
-                                        <!--/ Title with link -->
-
-                                        <!-- Content text -->
-                                        <div class="text latest_posts-acc-text">
-                                            Involves contact and maintain your customers in your business.
-                                            Spread the word for renewal of your stock, order arrivals
-                                            etc....
-                                        </div>
-                                        <!--/ Content text -->
-
-                                        <!-- Read more button -->
-                                        <a href="#" class="latest_posts-acc-more" title="">
-                                            READ MORE +
-                                        </a>
-                                        <!--/ Read more button -->
-                                    </div>
-                                    <!--/ Post content -->
-                                </div>
-                                <!--/ Post wrapper -->
-                            </li>
-                            <!--/ Post -->
-
+                            
                             <!-- Post -->
                             <li class="last latest_posts-acc-item">
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
                                     <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/inventory" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -270,7 +270,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="inventory.html">
+                                            <a href="/features/inventory">
                                                 INVENTORY
                                             </a>
                                         </h5>
@@ -285,7 +285,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="inventory.html" class="latest_posts-acc-more">
+                                        <a href="/features/inventory" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->

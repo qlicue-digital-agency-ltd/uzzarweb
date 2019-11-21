@@ -104,7 +104,7 @@
                     <!--/ Title -->
 
                     <!-- View all posts button -->
-                    <a href="index.html#uzzar-features" class="latest_posts-acc-viewall">
+                    <a href="/#uzzar-features" class="latest_posts-acc-viewall">
                         VIEW ALL -
                     </a>
                     <!--/ View all posts button -->
@@ -117,7 +117,8 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px;">
                                     <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/point-of-sale"
+                                        class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -138,22 +139,21 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="#">
-                                                ACCOUNTING
+                                            <a href="/features/point-of-sale">
+                                                POINT OF SALE
                                             </a>
                                         </h5>
                                         <!--/ Title with link -->
 
                                         <!-- Content text -->
                                         <div class="text latest_posts-acc-text">
-                                            A comprehensive accounting module to account for your revenue and
-                                            expenditure and visual reflection of your
-                                            business....
+                                            An interactive point of sale to enable you perform your sales fast,
+                                            effeciently and on the go....
                                         </div>
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="#" class="latest_posts-acc-more">
+                                        <a href="/features/point-of-sale" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
@@ -169,7 +169,7 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
                                     <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/engagment" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -190,7 +190,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="#">
+                                            <a href="/features/engagment">
                                                 ENGAGMENT
                                             </a>
                                         </h5>
@@ -205,7 +205,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="#" class="latest_posts-acc-more" title="">
+                                        <a href="/features/engagment" class="latest_posts-acc-more" title="">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
@@ -221,7 +221,7 @@
                                 <!-- Post wrapper -->
                                 <div class="inner-acc latest_posts-acc-inner" style="width: 555px">
                                     <!-- Post link wrapper -->
-                                    <a href="#" class="thumb hoverBorder plus latest_posts-acc-link">
+                                    <a href="/features/inventory" class="thumb hoverBorder plus latest_posts-acc-link">
                                         <!-- Border wrapper -->
                                         <span class="hoverBorderWrapper">
                                             <!-- Image -->
@@ -242,7 +242,7 @@
 
                                         <!-- Title with link -->
                                         <h5 class="m_title latest_posts-acc-title">
-                                            <a href="inventory.html">
+                                            <a href="/features/inventory">
                                                 INVENTORY
                                             </a>
                                         </h5>
@@ -257,7 +257,7 @@
                                         <!--/ Content text -->
 
                                         <!-- Read more button -->
-                                        <a href="inventory.html" class="latest_posts-acc-more">
+                                        <a href="/features/inventory" class="latest_posts-acc-more">
                                             READ MORE +
                                         </a>
                                         <!--/ Read more button -->
