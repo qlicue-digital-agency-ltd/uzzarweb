@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="keywords" content="premium html template, unique premium template, multipurpose template" />
+    <meta name="keywords" content="An All in one Point of Sale" />
     <meta name="description"
           content="Uzzar is a multiplatform Point of Sale designed to operate in various types of business">
 
