@@ -269,7 +269,7 @@
 
                                         <div class="col-sm-6 kl-fancy-form">
                                             <input type="text" name="name" id="cf_name" class="form-control"
-                                                placeholder="Please enter your first name" value="" tabindex="1"
+                                                placeholder="first name" value="" tabindex="1"
                                                 maxlength="35" required>
                                             <label class="control-label">
                                                 FIRSTNAME
@@ -278,7 +278,7 @@
 
                                         <div class="col-sm-6 kl-fancy-form">
                                             <input type="text" name="lastname" id="cf_lastname" class="form-control"
-                                                placeholder="Please enter your first last name" value="" tabindex="1"
+                                                placeholder="second name" value="" tabindex="1"
                                                 maxlength="35" required>
                                             <label class="control-label">
                                                 LASTNAME
@@ -287,7 +287,7 @@
 
                                         <div class="col-sm-12 kl-fancy-form">
                                             <input type="text" name="email" id="cf_email" class="form-control h5-email"
-                                                placeholder="Please enter your email address" value="" tabindex="1"
+                                                placeholder="email address" value="" tabindex="1"
                                                 maxlength="35" required>
                                             <label class="control-label">
                                                 EMAIL
@@ -296,7 +296,7 @@
 
                                         <div class="col-sm-12 kl-fancy-form">
                                             <input type="text" name="subject" id="cf_subject" class="form-control"
-                                                placeholder="Enter the subject message" value="" tabindex="1"
+                                                placeholder="subject message" value="" tabindex="1"
                                                 maxlength="35" required>
                                             <label class="control-label">
                                                 SUBJECT
