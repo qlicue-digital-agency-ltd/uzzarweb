@@ -758,7 +758,7 @@
                                     <!-- Slide 1 -->
                                     <div>
                                         <!-- Image -->
-                                        <img src="images/office-820390_640-580x380.jpg" width="580" height="380" alt=""
+                                        <img src="images/android.jpg" width="580" height="380" alt=""
                                             title="" />
                                         <!--/ Image -->
                                     </div>
@@ -767,7 +767,7 @@
                                     <!-- Slide 2 -->
                                     <div>
                                         <!-- Image -->
-                                        <img src="images/ipad-605439_640-580x380.jpg" width="580" height="380" alt=""
+                                        <img src="images/ios.jpg" width="580" height="380" alt=""
                                             title="" />
                                         <!--/ Image -->
                                     </div>
@@ -776,11 +776,19 @@
                                     <!-- Slide 3 -->
                                     <div>
                                         <!-- Image -->
-                                        <img src="images/phone-690091_640-580x380.jpg" width="580" height="380" alt=""
+                                        <img src="images/windows.jpg" width="580" height="380" alt=""
                                             title="" />
                                         <!--/ Image -->
                                     </div>
                                     <!--/ Slide 3 -->
+                                    <!-- Slide 4 -->
+                                    <div>
+                                        <!-- Image -->
+                                        <img src="images/linux.jpg" width="580" height="380" alt=""
+                                            title="" />
+                                        <!--/ Image -->
+                                    </div>
+                                    <!--/ Slide 4 -->
                                 </div>
                                 <!--/ .js-slick -->
 

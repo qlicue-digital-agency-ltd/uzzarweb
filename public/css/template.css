@@ -1450,7 +1450,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 /*** Page Subheader's defaults  */
-.page-subheader {min-height:300px; background-color: #066fd9;}
+.page-subheader {min-height:300px;}
 .page-subheader[class*="maskcontainer--"] {min-height: 330px; padding-bottom: 30px;}
 .page-subheader .container {padding: 0 15px; z-index: 1; position: relative; }
 .page-subheader > .shadowUP:after {content:''; position:absolute; bottom:-18px; left:50%; border:6px solid transparent; border-top-color:#fff; margin-left:-6px; }

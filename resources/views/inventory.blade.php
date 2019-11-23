@@ -61,7 +61,7 @@
                 </path>
                 <path d="M2701,0.313493752 L2701,47.2349598 L2312,47 L391,47 L2312,0 L2701,0.313493752 Z" fill="#ffffff"
                     class="bmask-bgfill" filter="url(#filter-mask6)"></path>
-                <path d="M2702,3 L2702,19 L2312,19 L1127,33 L2312,3 L2702,3 Z" fill="#46b6cc" class="bmask-customfill">
+                <path d="M2702,3 L2702,19 L2312,19 L1127,33 L2312,3 L2702,3 Z" fill="#008080" class="bmask-customfill">
                 </path>
             </g>
         </svg>
