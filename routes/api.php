@@ -38,5 +38,11 @@ Route::post('product', ['uses' => 'ProductController@postProduct']);
 Route::get('product/{productId}', ['uses' => 'ProductController@getProduct']);
 Route::put('product/{productId}', ['uses' => 'ProductController@putProduct']);
 Route::delete('product/{productId}', ['uses' => 'ProductController@deleteProduct']);
+Route::post('product/assignUnits', ['uses' => 'ProductController@assignUnits']);
 
-
+///Routes of unit
+Route::get('units', ['uses' => 'UnitController@getAllUnits']);
+Route::post('unit', ['uses' => 'UnitController@postUnit']);
+Route::get('unit/{unitId}', ['uses' => 'UnitController@getUnit']);
+Route::put('unit/{unitId}', ['uses' => 'UnitController@putUnit']);
+Route::delete('unit/{unitId}', ['uses' => 'UnitController@deleteUnit']);
