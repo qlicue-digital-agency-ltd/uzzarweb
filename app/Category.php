@@ -14,7 +14,7 @@ class Category extends Model
     protected $dates = ['deleted_at'];
 
 
-    
+
     public function products()
     {
         return $this->hasMany(Product::class);
@@ -22,6 +22,6 @@ class Category extends Model
 
     public function shops()
     {
-        return $this->belongsToMany(Shop::class);
+        return $this->belongsTo(Shop::class);
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Shop;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -12,10 +13,9 @@ class CategoryController extends Controller
     {
 
         $categories = Category::all();
-        foreach ($categories as $category) {
-            $category->shops;
-            $category->products;
-        }
+
+        foreach ($categories as $category) $category->products;
+
 
         return response()->json(['categories' => $categories], 200);
     }
@@ -36,18 +36,18 @@ class CategoryController extends Controller
     {
 
         $validator = Validator::make($request->all(), [
-            'name' => 'required|unique:categories',
-            'status' => 'required'
+            'name' => 'required',
+            'status' => 'required',
+            'shop_id' => 'required'
+
         ]);
 
-        if ($validator->fails()) {
+        if ($validator->fails()) return response()->json(['errors' => $validator->errors(),], 300);
 
-            //pass validator errors as errors object for ajax response
 
-            return response()->json([
-                'errors' => $validator->errors(),
-            ], 300);
-        }
+        $shop = Shop::find($request->input('shop_id'));
+
+        if (!$shop) return response()->json(['error', 'Product not found'], 404);
 
         $category = new Category();
 
@@ -55,7 +55,7 @@ class CategoryController extends Controller
         $category->details = $request->input('details');
         $category->status = $request->input('status');
         $category->parent_id = $request->input('parent_id');
-        $category->save();
+        $shop->categories()->save($category);
 
         return response()->json(['category' => $category], 201);
     }

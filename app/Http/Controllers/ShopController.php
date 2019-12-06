@@ -76,34 +76,4 @@ class ShopController extends Controller
         $shop->delete();
         return response()->json(['shop' => 'Shop deleted successfully'], 201);
     }
-
-    public function assignCategory(Request $request){
-
-        $validator = Validator::make($request->all(), [
-            'category_id' => 'required',
-            'shop_id' => 'required'
-        ]);
-
-        if ($validator->fails()) {
-
-            //pass validator errors as errors object for ajax response
-
-            return response()->json([
-                'errors' => $validator->errors(),
-            ], 300);
-        }
-
-        $category = Category::find($request->input('category_id'));
-        if(!$category) return response()->json(['error'=>'Category Not Found']);
-
-        $shop = Shop::find($request->input('shop_id'));
-        if(!$shop) return response()->json(['error'=>'Shop Not Found']);
-
-        $shop->categories()->attach($category);
-
-        return response()->json([
-            'shop'=>$shop
-        ], 201);
-
-    }
 }
