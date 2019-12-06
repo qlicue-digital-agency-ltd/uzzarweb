@@ -11,6 +11,6 @@ class UnitsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        
     }
 }
