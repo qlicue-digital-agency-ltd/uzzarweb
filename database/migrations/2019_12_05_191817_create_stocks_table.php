@@ -22,6 +22,7 @@ class CreateStocksTable extends Migration
             $table->bigInteger('quantity');
             $table->bigInteger('alert_quantity');
             $table->boolean('status');
+            $table->double('unit_value');
 
             $table->bigInteger('supplier_id')->nullable();
             $table->bigInteger('unit_id');

@@ -15,7 +15,7 @@ class ProductController extends Controller
 
         $products = Product::all();
 
-        foreach ($products as $product) $product->units;
+        foreach ($products as $product) $product->stocks;
 
 
         return response()->json(['products' => $products], 200);

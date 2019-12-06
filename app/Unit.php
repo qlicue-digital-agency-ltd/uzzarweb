@@ -10,13 +10,13 @@ class Unit extends Model
     use SoftDeletes;
 
     ///Allowable field to be injection into the database
-    protected $fillable = ['name','si_unit'];
+    protected $fillable = ['name', 'si_unit'];
     ///fields that shoudn't be returned with response
     protected $dates = ['deleted_at'];
 
 
-    public function products()
+    public function stocks()
     {
-        return $this->belongsToMany(Product::class);
+        return $this->belongsTo(Stock::class);
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +47,7 @@ Route::post('unit', ['uses' => 'UnitController@postUnit']);
 Route::get('unit/{unitId}', ['uses' => 'UnitController@getUnit']);
 Route::put('unit/{unitId}', ['uses' => 'UnitController@putUnit']);
 Route::delete('unit/{unitId}', ['uses' => 'UnitController@deleteUnit']);
+
+
+///Routes of stock
+Route::get('stocks', ['uses' => 'StockController@getAllStocks']);
