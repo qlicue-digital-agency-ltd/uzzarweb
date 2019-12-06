@@ -1237,7 +1237,7 @@ class StocksTableSeeder extends Seeder
         $stock->expiry_date = Carbon::now();
         $stock->product_id = 8;
         $stock->save();
-        
+
         $stock = new Stock();
         $stock->name = "Monster";
         $stock->unit_value = 250;
@@ -1294,5 +1294,379 @@ class StocksTableSeeder extends Seeder
         $stock->product_id = 8;
         $stock->save();
 
+        ///food .........
+        $stock = new Stock();
+        $stock->name = "Chipsi Kavu";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 1;
+        $stock->save();
+
+
+
+        //->kuku
+        $stock = new Stock();
+        $stock->name = "Kuku Mzima";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 2;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kuku Nusu";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 2;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kuku Robo";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 2;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Firigisi";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 2;
+        $stock->save();
+
+        //->mayai
+        $stock = new Stock();
+        $stock->name = "Mayai ya Kienyeji";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 4;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Mayai ya Kizungu";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 4;
+        $stock->save();
+
+        //->Samaki
+        $stock = new Stock();
+        $stock->name = "Kibua";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Sato";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kamongo";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kambale";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Perege";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Ngisi";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 7;
+        $stock->save();
+
+        //->Ndizi 
+
+        $stock = new Stock();
+        $stock->name = "Mzuzu";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Bukoba";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Mshale";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Malindi";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Mkono wa Tembo";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kisukari";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Jamaika";
+        $stock->unit_value = 1;
+        $stock->unit_id = 6;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 6;
+        $stock->save();
+
+        //->mishikaki
+        $stock = new Stock();
+        $stock->name = "Ng'ombe";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 5;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Kuku";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 5;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Samaki";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 5;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Mbuzi";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 5;
+        $stock->save();
+
+
+//->Nyama choma
+        $stock = new Stock();
+        $stock->name = "Mbuzi";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 3;
+        $stock->save();
+
+        $stock = new Stock();
+        $stock->name = "Ng'ombe";
+        $stock->unit_value = 1;
+        $stock->unit_id = 9;
+        $stock->buying_price = 0;
+        $stock->selling_price = 0;
+        $stock->quantity = 0;
+        $stock->alert_quantity = 10;
+        $stock->status = true;
+        $stock->supplier_id = 0;
+        $stock->expiry_date = Carbon::now();
+        $stock->product_id = 3;
+        $stock->save();
     }
 }

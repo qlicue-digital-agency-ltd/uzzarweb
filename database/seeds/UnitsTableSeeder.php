@@ -52,5 +52,10 @@ class UnitsTableSeeder extends Seeder
         $unit->name = "GLASS";
         $unit->si_unit = "per glass";
         $unit->save();
+
+        $unit = new Unit();
+        $unit->name = "PIECE";
+        $unit->si_unit = "per piece";
+        $unit->save();
     }
 }
