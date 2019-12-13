@@ -14,10 +14,16 @@ class ShopController extends Controller
 
         $shops = Shop::all();
         foreach ($shops as $shop) {
-            $shop->categories;
+            $cats = $shop->categories;
+            foreach ($cats as $cat) {
+                $products =  $cat->products;
+                foreach ($products as $product) {
+                    $product->stocks;
+                }
+            }
         }
 
-        return response()->json(['shops' => $shops], 200);
+        return response()->json(['shops' => $shops], 200)->setEncodingOptions(JSON_NUMERIC_CHECK);
     }
 
     public function getShop($shopId)

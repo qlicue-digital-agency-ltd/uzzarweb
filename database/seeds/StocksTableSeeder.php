@@ -1668,5 +1668,8 @@ class StocksTableSeeder extends Seeder
         $stock->expiry_date = Carbon::now();
         $stock->product_id = 3;
         $stock->save();
+
+
+        //stock za skoni shop
     }
 }

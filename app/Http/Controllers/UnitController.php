@@ -11,7 +11,7 @@ class UnitController extends Controller
 
     public function getAllUnits()
     {
-        return response()->json(['units' => Unit::all()], 200);
+        return response()->json(['units' => Unit::all()], 200,[], JSON_NUMERIC_CHECK);
     }
 
     public function getUnit($unitId)

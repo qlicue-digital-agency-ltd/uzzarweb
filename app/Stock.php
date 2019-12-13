@@ -12,6 +12,7 @@ class Stock extends Model
 
     protected $fillable = ['name', 'buying_price', 'selling_price', 'quantity', 'alert_quantity', 'unit_value', 'status', 'supplier_id', 'unit_id', 'expiry_date'];
     protected $dates = ['deleted_at'];
+
     public function units()
     {
         return $this->hasOne(Unit::class);

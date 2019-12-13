@@ -18,7 +18,7 @@ class ProductController extends Controller
         foreach ($products as $product) $product->stocks;
 
 
-        return response()->json(['products' => $products], 200);
+        return response()->json(['products' => $products], 200,[], JSON_NUMERIC_CHECK);
     }
 
     public function getProduct($productId)

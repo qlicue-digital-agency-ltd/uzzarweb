@@ -17,7 +17,7 @@ class CategoryController extends Controller
         foreach ($categories as $category) $category->products;
 
 
-        return response()->json(['categories' => $categories], 200);
+        return response()->json(['categories' => $categories], 200,[], JSON_NUMERIC_CHECK);
     }
 
     public function getCategory($categoryId)

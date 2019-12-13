@@ -18,7 +18,7 @@ class StockController extends Controller
 
 
 
-        return response()->json(['stocks' => $stocks], 200);
+        return response()->json(['stocks' => $stocks,], 200,[], JSON_NUMERIC_CHECK);
     }
 
     public function getStock($stockId)
