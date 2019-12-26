@@ -15,6 +15,12 @@ class CreatePackagesTable extends Migration
     {
         Schema::create('packages', function (Blueprint $table) {
             $table->bigIncrements('id');
+
+            $table->string('name')->unique();
+            $table->bigInteger('amount')->unique();
+            $table->bigInteger('commision');
+
+            $table->softDeletes();
             $table->timestamps();
         });
     }

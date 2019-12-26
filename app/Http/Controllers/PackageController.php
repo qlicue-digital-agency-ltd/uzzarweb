@@ -4,82 +4,75 @@ namespace App\Http\Controllers;
 
 use App\Package;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class PackageController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function getAllPackages()
     {
-        //
+        return response()->json(['packages' => Package::all()], 200, [], JSON_NUMERIC_CHECK);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function getPackage($packageId)
     {
-        //
+        $package = Package::find($packageId);
+
+        if (!$package) return response()->json(['error' => 'Package not found'], 404);
+
+        return response()->json(['package' => $packageId], 200);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function postPackage(Request $request)
     {
-        //
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|unique:packages',
+            'amount' => 'required|unique:packages',
+            'commision' => 'required'
+        ]);
+
+        if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
+
+        $package = new Package();
+        $package->name = $request->input('name');
+        $package->amount = $request->input('amount');
+        $package->commision = $request->input('commision');
+
+        $package->save();
+
+        return response()->json(['package' => $package], 201);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Package  $package
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Package $package)
+    public function putPackage(Request $request, $packageId)
     {
-        //
+        $package = Package::find($packageId);
+
+        if (!$package) return response()->json(['error' => 'Package not found'], 404);
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|unique:packages',
+            'amount' => 'required|unique:packages',
+            'commision' => 'required'
+        ]);
+
+        if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
+
+        $package->update([
+            'name' => $request->input('name'),
+            'amount' => $request->input('amount'),
+            'commision' => $request->input('commision')
+        ]);
+        return response()->json(['package' => $package], 201);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Package  $package
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Package $package)
+    public function deletePackage($packageId)
     {
-        //
-    }
+        $package = Package::find($packageId);
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Package  $package
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Package $package)
-    {
-        //
-    }
+        if (!$package) return response()->json(['error' => 'Package not found'], 404);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Package  $package
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Package $package)
-    {
-        //
+        $package->delete();
+
+        return response()->json(['package' => 'Package deleted Successfully'], 201);
     }
 }

@@ -16,6 +16,12 @@ class CreateStoresTable extends Migration
         Schema::create('stores', function (Blueprint $table) {
             $table->bigIncrements('id');
             
+            $table->string('physical_address');
+            $table->string('mobile');
+            $table->string('country');
+            $table->string('district');
+
+            $table->softDeletes();
             $table->timestamps();
         });
     }
