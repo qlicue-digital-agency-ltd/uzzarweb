@@ -3,83 +3,94 @@
 namespace App\Http\Controllers;
 
 use App\Store;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class StoreController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function getAllStores()
     {
-        //
+        return response()->json(['stores' => Store::all()], 200, [], JSON_NUMERIC_CHECK);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function getStore($storeId)
     {
-        //
+        $store = Store::find($storeId);
+
+        if (!$store) return response()->json(['error' => 'Store not found'], 404);
+
+        return response()->json(['store' => $storeId], 200);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function postStore(Request $request)
     {
-        //
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'physical_address' => 'required',
+            'mobile' => 'required',
+            'country' => 'required',
+            'district' => 'required',
+            'email' => 'required|email',
+            'user_id' => 'required',
+        ]);
+
+        if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
+
+        $user = User::find($request->input('user_id'));
+
+        if (!$user) return response()->json(['error' => 'Store not found'], 404);
+
+        $store = new Store();
+        $store->name = $request->input('name');
+        $store->physical_address = $request->input('physical_address');
+        $store->mobile = $request->input('mobile');
+        $store->country = $request->input('country');
+        $store->district = $request->input('district');
+        $store->email = $request->input('email');
+
+        $user->stores()->save($store);
+
+        return response()->json(['store' => $store], 201);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Store  $store
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Store $store)
+    public function putStore(Request $request, $storeId)
     {
-        //
+        $store = Store::find($storeId);
+
+        if (!$store) return response()->json(['error' => 'Store not found'], 404);
+
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'physical_address' => 'required',
+            'mobile' => 'required',
+            'country' => 'required',
+            'district' => 'required',
+            'email' => 'required|email',
+        ]);
+
+        if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
+
+        $store->update([
+            'name' => $request->input('name'),
+            'physical_address' => $request->input('physical_address'),
+            'mobile' => $request->input('mobile'),
+            'country' => $request->input('country'),
+            'district' => $request->input('district'),
+            'email' => $request->input('email')
+        ]);
+        return response()->json(['store' => $store], 201);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Store  $store
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Store $store)
+    public function deleteStore($storeId)
     {
-        //
-    }
+        $store = Store::find($storeId);
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Store  $store
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Store $store)
-    {
-        //
-    }
+        if (!$store) return response()->json(['error' => 'Store not found'], 404);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Store  $store
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Store $store)
-    {
-        //
+        $store->delete();
+
+        return response()->json(['store' => 'Store deleted Successfully'], 201);
     }
 }
