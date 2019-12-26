@@ -51,3 +51,12 @@ Route::delete('unit/{unitId}', ['uses' => 'UnitController@deleteUnit']);
 
 ///Routes of stock
 Route::get('stocks', ['uses' => 'StockController@getAllStocks']);
+
+
+
+//Routes of store
+Route::get('stores', ['uses' => 'StoreController@getAllStores']);
+Route::post('store', ['uses' => 'StoreController@postStore']);
+Route::get('store/{storeId}', ['uses' => 'StoreController@getStore']);
+Route::put('store/{storeId}', ['uses' => 'StoreController@putStore']);
+Route::delete('store/{storeId}', ['uses' => 'StoreController@deleteStore']);

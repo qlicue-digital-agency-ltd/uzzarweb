@@ -55,3 +55,4 @@ Route::get('/features/point-of-sale', function () {
 Route::get('/features/reports', function () {
     return view('reports');
 });
+
