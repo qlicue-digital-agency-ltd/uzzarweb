@@ -27,7 +27,8 @@ class VoucherController extends Controller
     public function postVoucher(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'store_id' => 'required|unique:vouchers'
+            'store_id' => 'required|unique:vouchers',
+            'package_id' => 'required'
         ]);
 
         if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
