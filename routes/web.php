@@ -56,5 +56,3 @@ Route::get('/features/reports', function () {
     return view('reports');
 });
 
-
-

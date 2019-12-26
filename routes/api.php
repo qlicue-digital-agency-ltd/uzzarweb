@@ -67,3 +67,11 @@ Route::get('vouchers', ['uses' => 'VoucherController@getAllVouchers']);
 Route::post('voucher', ['uses' => 'VoucherController@postVoucher']);
 Route::get('voucher/{voucherId}', ['uses' => 'VoucherController@getVoucher']);
 Route::delete('voucher/{voucherId}', ['uses' => 'VoucherController@deleteVoucher']);
+
+
+//Routes of package
+Route::get('packages', ['uses' => 'PackageController@getAllPackages']);
+Route::post('package', ['uses' => 'PackageController@postPackage']);
+Route::get('package/{packageId}', ['uses' => 'PackageController@getPackage']);
+Route::put('package/{packageId}', ['uses' => 'PackageController@putPackage']);
+Route::delete('package/{packageId}', ['uses' => 'PackageController@deletePackage']);
