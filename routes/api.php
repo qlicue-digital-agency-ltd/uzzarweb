@@ -60,3 +60,10 @@ Route::post('store', ['uses' => 'StoreController@postStore']);
 Route::get('store/{storeId}', ['uses' => 'StoreController@getStore']);
 Route::put('store/{storeId}', ['uses' => 'StoreController@putStore']);
 Route::delete('store/{storeId}', ['uses' => 'StoreController@deleteStore']);
+
+
+//Routes of voucher
+Route::get('vouchers', ['uses' => 'VoucherController@getAllVouchers']);
+Route::post('voucher', ['uses' => 'VoucherController@postVoucher']);
+Route::get('voucher/{voucherId}', ['uses' => 'VoucherController@getVoucher']);
+Route::delete('voucher/{voucherId}', ['uses' => 'VoucherController@deleteVoucher']);
