@@ -2,72 +2,89 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use App\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
-       /**
-    * Get a JWT via given credentials.
-    *
-    * @return \Illuminate\Http\JsonResponse
-    */
-   public function login()
-   {
-       $credentials = request(['email', 'password']);
- 
-       if (! $token = auth()->attempt($credentials)) {
-           return response()->json(['error' => 'Unauthorized'], 401);
-       }
- 
-       return $this->respondWithToken($token);
-   }
- 
-   /**
-    * Get the authenticated User.
-    *
-    * @return \Illuminate\Http\JsonResponse
-    */
-   public function me()
-   {
-       return response()->json(auth()->user());
-   }
- 
-   /**
-    * Log the user out (Invalidate the token).
-    *
-    * @return \Illuminate\Http\JsonResponse
-    */
-   public function logout()
-   {
-       auth()->logout();
- 
-       return response()->json(['message' => 'Successfully logged out']);
-   }
- 
-   /**
-    * Refresh a token.
-    *
-    * @return \Illuminate\Http\JsonResponse
-    */
-   public function refresh()
-   {
-    //   return $this->respondWithToken(auth()->refresh());
-   }
- 
-   /**
-    * Get the token array structure.
-    *
-    * @param  string $token
-    *
-    * @return \Illuminate\Http\JsonResponse
-    */
-   protected function respondWithToken($token)
-   {
-    //    return response()->json([
-    //        'access_token' => $token,
-    //        'token_type' => 'bearer',
-    //        'expires_in' => auth()->factory()->getTTL() * 60
-    //    ]);
-   }
+    public function getAllUsers()
+    {
+        $users = User::all();
+        foreach ($users as $user) {
+            $user->roles;
+        }
+
+        return response()->json(['users' => $users]);
+    }
+
+    public function register(Request $request)
+    {
+
+        $validator = Validator::make($request->all(), [
+            'phone' => 'required|unique:users',
+            'email' => 'email|uniquire:users',
+            'password' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+
+            //pass validator errors as errors object for ajax response
+
+            return response()->json([
+                'errors' => $validator->errors(),
+                'message' => $validator->errors()->first(),
+                'status' => false
+            ]);
+        }
+        $user = User::create([
+            'phone' => $request->phone,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+        ]);
+
+        $token = auth()->login($user);
+
+        return response()->json([
+            'token' => $token,
+            'id' => auth()->user()->id,
+            'phone' => auth()->user()->phone,
+            'email' => auth()->user()->eamil
+        ], 200, [], JSON_NUMERIC_CHECK);
+    }
+
+    public function login(Request $request)
+    {
+        $credentials = $request->only('phone', 'password');;
+
+
+        if (!$token = auth()->attempt($credentials)) {
+            return response()->json(['error' => 'Unauthorized user'], 401);
+        }
+
+        return response()->json([
+            'token' => $token,
+            'id' => auth()->user()->id,
+            'phone' => auth()->user()->phone,
+        ], 200, [], JSON_NUMERIC_CHECK);
+    }
+    public function logout()
+    {
+        auth()->logout();
+
+        return response()->json(['message' => 'Successfully logged out']);
+    }
+
+    protected function respondWithToken($token)
+    {
+        return response()->json([
+            'access_token' => $token,
+            'token_type'   => 'bearer',
+            //'expires_in'   => auth()->factory()->getTTL() * 60
+        ]);
+    }
 }
