@@ -15,9 +15,6 @@ class AuthController extends Controller
     public function getAllUsers()
     {
         $users = User::all();
-        foreach ($users as $user) {
-            $user->roles;
-        }
 
         return response()->json(['users' => $users]);
     }
@@ -26,9 +23,10 @@ class AuthController extends Controller
     {
 
         $validator = Validator::make($request->all(), [
-            'phone' => 'required|unique:users',
-            'email' => 'email|uniquire:users',
+            'mobile' => 'required|unique:users',
+            'email' => 'email|unique:users',
             'password' => 'required',
+            'name' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -38,13 +36,14 @@ class AuthController extends Controller
             return response()->json([
                 'errors' => $validator->errors(),
                 'message' => $validator->errors()->first(),
-                'status' => false
-            ]);
+
+            ], 401);
         }
         $user = User::create([
-            'phone' => $request->phone,
+            'mobile' => $request->mobile,
             'email' => $request->email,
-            'password' => Hash::make($request->password),
+            'name' => $request->name,
+            'password' => $request->password,
         ]);
 
         $token = auth()->login($user);
@@ -52,14 +51,15 @@ class AuthController extends Controller
         return response()->json([
             'token' => $token,
             'id' => auth()->user()->id,
-            'phone' => auth()->user()->phone,
-            'email' => auth()->user()->eamil
-        ], 200, [], JSON_NUMERIC_CHECK);
+            'mobile' => auth()->user()->mobile,
+            'name' => auth()->user()->name,
+            'email' => auth()->user()->email
+        ], 201, [], JSON_NUMERIC_CHECK);
     }
 
     public function login(Request $request)
     {
-        $credentials = $request->only('phone', 'password');;
+        $credentials = $request->only('mobile', 'password');;
 
 
         if (!$token = auth()->attempt($credentials)) {
@@ -69,7 +69,9 @@ class AuthController extends Controller
         return response()->json([
             'token' => $token,
             'id' => auth()->user()->id,
-            'phone' => auth()->user()->phone,
+            'mobile' => auth()->user()->mobile,
+            'email' => auth()->user()->email,
+            'name' => auth()->user()->name,
         ], 200, [], JSON_NUMERIC_CHECK);
     }
     public function logout()
