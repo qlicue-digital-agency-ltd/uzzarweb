@@ -23,7 +23,7 @@ class StoreController extends Controller
         return response()->json(['store' => $storeId], 200);
     }
 
-    public function postStore(Request $request)
+    public function postStore(Request $request, $userId)
     {
 
         $validator = Validator::make($request->all(), [
@@ -31,16 +31,14 @@ class StoreController extends Controller
             'physical_address' => 'required',
             'mobile' => 'required',
             'country' => 'required',
-            'district' => 'required',
-            'email' => 'required|email',
-            'user_id' => 'required',
+            'district' => 'required'
         ]);
 
         if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
 
-        $user = User::find($request->input('user_id'));
+        $user = User::find($userId);
 
-        if (!$user) return response()->json(['error' => 'Store not found'], 404);
+        if (!$user) return response()->json(['error' => 'User not found'], 404);
 
         $store = new Store();
         $store->name = $request->input('name');
@@ -48,7 +46,6 @@ class StoreController extends Controller
         $store->mobile = $request->input('mobile');
         $store->country = $request->input('country');
         $store->district = $request->input('district');
-        $store->email = $request->input('email');
 
         $user->stores()->save($store);
 
@@ -67,7 +64,7 @@ class StoreController extends Controller
             'mobile' => 'required',
             'country' => 'required',
             'district' => 'required',
-            'email' => 'required|email',
+
         ]);
 
         if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);

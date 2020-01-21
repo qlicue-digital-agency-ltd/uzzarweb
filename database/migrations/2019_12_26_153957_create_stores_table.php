@@ -21,7 +21,6 @@ class CreateStoresTable extends Migration
             $table->string('mobile');
             $table->string('country');
             $table->string('district');
-            $table->string('email');
             $table->bigInteger('user_id');
 
             $table->softDeletes();

@@ -11,7 +11,7 @@ class VoucherController extends Controller
 {
     public function getAllVouchers()
     {
-        return response()->json(['vouchers' => Voucher::all(), 200]);
+        return response()->json(['vouchers' => Voucher::all()], 200);
     }
 
     public function getVoucher($voucherId)
