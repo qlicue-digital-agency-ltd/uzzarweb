@@ -67,6 +67,7 @@ Route::delete('store/{storeId}', ['uses' => 'StoreController@deleteStore']);
 //Routes of voucher
 Route::get('vouchers', ['uses' => 'VoucherController@getAllVouchers']);
 Route::post('voucher', ['uses' => 'VoucherController@postVoucher']);
+Route::post('checkVoucher', ['uses' => 'VoucherController@voucherCheck']);
 Route::get('voucher/{voucherId}', ['uses' => 'VoucherController@getVoucher']);
 Route::delete('voucher/{voucherId}', ['uses' => 'VoucherController@deleteVoucher']);
 

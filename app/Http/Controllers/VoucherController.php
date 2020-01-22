@@ -40,10 +40,27 @@ class VoucherController extends Controller
         $voucher = new Voucher;
 
         $voucher->code = $this->generateRandomString(15);
+        $voucher->package_id = $request->input('package_id');
 
         $store->voucher()->save($voucher);
 
         return response()->json(['voucher', $voucher]);
+    }
+
+    public function voucherCheck(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'store_id' => 'required',
+            'code' => 'required'
+        ]);
+
+        if ($validator->fails()) return response()->json(['error' => $validator->errors()], 300);
+
+        $voucher = Voucher::where('store_id', '=', $request->input('store_id'))->where('code', '=', $request->input('code'))->first();
+
+        if (!$voucher) return response()->json(['error' => 'Voucher not found'], 404);
+
+        return response()->json(['voucher', $voucher], 201);
     }
 
     public function deleteVoucher($voucherId)
