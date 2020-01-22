@@ -39,7 +39,7 @@ class VoucherController extends Controller
         if (!$store) return response()->json(['error' => 'Store not found'], 404);
         $voucher = new Voucher;
 
-        $voucher->code = $this->generateRandomString(15);
+        $voucher->code = $this->generateRandomString(16);
         $voucher->package_id = $request->input('package_id');
 
         $store->voucher()->save($voucher);
@@ -76,7 +76,7 @@ class VoucherController extends Controller
 
     public  function generateRandomString($length = 20)
     {
-        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $characters = '0123456789abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ';
         $charactersLength = strlen($characters);
         $randomString = '';
         for ($i = 0; $i < $length; $i++) {
